@@ -113,3 +113,105 @@ nav ul li a:hover{
     display: block;
     margin-bottom: 15px;
 }
+.texto-introducao p {
+    line-height: 1.6; /* melhora a leitura de textos longos */
+    margin-bottom: 20px;
+    text-align: justify; /* alinhamento justificado - alinha à esquerda e à direta */
+}
+.lista-valores {
+    list-style: none;
+    padding: 0;
+}
+.lista-valores li {
+    background: #eef5ff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-left: 5px solid #1e3c72;
+}
+section {
+  
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px 12px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    width: 80%;
+    margin: 20px auto;
+}
+table{
+    width: 100%; border-collapse: collapse; margin-top: 20px;
+    background-color: white;
+}
+th,td{
+    padding: 15px; text-align: left; 
+    border-bottom: 1px solid #dddd;
+}
+th{
+    background-color: #2a5298;
+}
+.box-amarela{
+    width: 25px; height: 25px;
+    border-radius: 4px;
+    background-color: yellow;
+}
+.box-verde{
+    width: 25px; height: 25px;
+    border-radius: 4px;
+    background-color: rgb(30, 255, 0);
+}
+.box-laranja{
+    width: 25px; height: 25px;
+    border-radius: 4px;
+    background-color: rgb(255, 176, 5);
+}
+.box-lescuro{
+    width: 25px; height: 25px;
+    border-radius: 4px;
+    background-color: rgb(255, 94, 0);
+}
+.box-preto{
+    width: 25px; height: 25px;
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0);
+}
+.box-vermelho{
+    width: 25px; height: 25px;
+    border-radius: 4px;
+    background-color: rgb(255, 0, 0);
+}
+.box-rosa{
+    width: 25px; height: 25px;
+    border-radius: 4px;
+    background-color: rgb(187, 22, 146);
+}
+.box-roxo{
+    width: 25px; height: 25px;
+    border-radius: 4px;
+    background-color: rgb(112, 26, 86);
+}
+.box-cinza{
+    width: 25px; height: 25px;
+    border-radius: 4px;
+    background-color: rgb(124, 124, 119);
+}
+.lista-doacao{
+    background-color: rgb(214, 214, 126);
+    list-style: none;
+    border: 4px dashed #f0c36d;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 0;
+}
+.sup{
+    border-left: 3px solid red;
+    background-color: #f5acac;
+}
+.amarelo{
+    color: rgb(202, 202, 104);
+}
+.amarelo-container{
+    background-color:#ebeaac;
+    border-left: 3px solid yellow;
+}
