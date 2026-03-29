@@ -133,11 +133,7 @@ section {
   
     background: white;
     margin-bottom: 20px;
-<<<<<<< HEAD
-    padding: 20px 18px;
-=======
     padding: 20px 12px;
->>>>>>> 44358e2692ec444bcbdb15ac32b0cb597d2ce88b
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     margin-top: 20px;
@@ -218,7 +214,6 @@ th{
 .amarelo-container{
     background-color:#ebeaac;
     border-left: 3px solid yellow;
-<<<<<<< HEAD
 }
 footer {
     background-color: rgb(26, 26, 99);
