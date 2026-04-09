@@ -340,3 +340,9 @@ button {
     font-weight: bold;
     font-size: 1.2rem;
 }
+select{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+}

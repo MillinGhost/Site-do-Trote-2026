@@ -24,8 +24,44 @@
             </div>
         </nav>
         <main>
-            <section class="calculadora">
-                <h3>Simulador de Pontos</h3>
+            <section>
+                <div>
+                    <h3>Simulador de Metas Batidas</h3>
+                    <div class="form-group">
+                        <label for="">Selecione a cor do time</label>
+                        <select name="Cores" id="cor">
+                            <option value="preta">Preta</option>
+                            <option value="amarelo">Amarela</option>
+                            <option value="cinza">Cinza</option>
+                            <option value="laranja">Laranja</option>
+                            <option value="Marrom">Marrom</option>
+                            <option value="rosa">Rosa</option>
+                            <option value="roxo">Roxo</option>
+                            <option value="verde">Verde</option>
+                            <option value="vermelho">Vermelho</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Kit de Alimentação(60 kits)</label>
+                        <input type="number" id="kitAlimentacao" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Suplementos(30 latas)</label>
+                        <input type="number" id="qtdLatas" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Leite(60 latas)</label>
+                        <input type="number" id="qtdLeites" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Doação de Sangue(30 doações)</label>
+                        <input type="number" id="qtdSangue" min="0">
+                    </div>
+                    
+                </div>
+            </section>
+            <section>
+                <h3>Simulador de Pontos - Itens Avulsos</h3>
                 <div class="form-grid">
                     <div class="form-group">
                         <label for="">Arroz(5kg) - 10 pts</label>
@@ -41,9 +77,11 @@
                      </div>
                      <div class="form-group">
                         <label for="">Macarrão(500g) - 2 pts</label>
-                        <input type="number" id="qtdmaca" min="0">
+                        <input type="number" id="qtdMaca" min="0">
                      </div>
                 </div>
+            </section>
+            <section>
                 <button onclick="calcular()">Calcular Total da Equipe</button>
                 <div id="resultado"  class="resultado-box">
                     Pontuação Total:0 pontos
