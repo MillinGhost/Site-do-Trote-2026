@@ -40,7 +40,6 @@ body {
     padding: 18px 0;
     text-transform: uppercase;
     background: linear-gradient(90deg, #fff, #e94560);
-    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -608,6 +607,7 @@ button:hover {
     color: #0f3460;
 }
 
+/* ── Correção: .principal fora do index (sem hero acima) ── */
 /* A introdução usa .principal mas não tem .cabecalho, então reseta o margin negativo */
 main.principal:not(.index-principal) {
     margin-top: 0;
